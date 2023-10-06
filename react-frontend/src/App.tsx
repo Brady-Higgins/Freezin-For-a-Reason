@@ -82,7 +82,7 @@ const App: React.FC = () => {
       <div className="event-images">
         <h2>Event Images</h2>
         {/* Add your event images here */}
-        <img src="event-image1.jpg" alt="Event Image 1" />
+        <img src="images/event-image1.jpg" alt="Event Image 1" width="150" height="150" />
         <img src="event-image2.jpg" alt="Event Image 2" />
       </div>
       <h2>Sign Up & Pay</h2>
