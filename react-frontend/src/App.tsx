@@ -63,29 +63,29 @@ const App: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className='innerbox'>
       <header className="header">
         <div className="logo">
-          <img src={"./Logo.png"} />
+          <img src={"images/Logo.png"} />
         </div>
         <h1>Freezin' For A Reason 5K</h1>
       </header>
       <div className="event-description">
         <h2>Event Description</h2>
-        <p>
-        Participate in the University of Minnesota's College of Science and Engineering Student Board's annual 5K Friday, November 17! Registration includes post-run hot chocolate and snacks, as well as a long-sleeve athletic Freezin' for a Reason T-Shirt. <br></br> <br></br>
-        This year's Freezin' for a Reason 5k benefits Make a Wish Minnesota, a charity dedicated to granting wishes to create hope and joy for Minnesota children with life-threatening medical conditions.<br></br> <br></br>
-        Race check-in and bag check will occur in Bruininks Hall, room . Post-event hot chocolate and snacks will be provided. Runners and walkers will be expected to be ready at the start at 3:25, and the event will begin at 3:30. <br></br> <br></br>
-        Early bird pricing ends November 14. Students can use the code goldengopher to get an additional $5 off registration! <br></br> <br></br>Campus Race Route: https://z.umn.edu/5k-map
-        </p>
+        <div className='containerthing'>
+          <p>
+          Participate in the University of Minnesota's College of Science and Engineering Student Board's annual 5K Friday, November 17! Registration includes post-run hot chocolate and snacks, as well as a long-sleeve athletic Freezin' for a Reason T-Shirt. <br></br> <br></br>
+          This year's Freezin' for a Reason 5k benefits Make a Wish Minnesota, a charity dedicated to granting wishes to create hope and joy for Minnesota children with life-threatening medical conditions.<br></br> <br></br>
+          Race check-in and bag check will occur in Bruininks Hall, room . Post-event hot chocolate and snacks will be provided. Runners and walkers will be expected to be ready at the start at 3:25, and the event will begin at 3:30. <br></br> <br></br>
+          Early bird pricing ends November 14. Students can use the code goldengopher to get an additional $5 off registration! <br></br> <br></br>Campus Race Route: https://z.umn.edu/5k-map
+          </p>
+          <div className="image-container">
+            <img src={"images/runners.jpg"} width="300" height="200"/>
+            <img src={"images/event-image1.jpg"} width="300" height="200" />
+          </div>
+        </div>
       </div>
-      <div className="event-images">
-        <h2>Event Images</h2>
-        {/* Add your event images here */}
-        <img src="images/event-image1.jpg" alt="Event Image 1" width="150" height="150" />
-        <img src="event-image2.jpg" alt="Event Image 2" />
-      </div>
-      <h2>Sign Up & Pay</h2>
+      <h2>Sign Up</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

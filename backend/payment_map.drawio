@@ -1,0 +1,26 @@
+<mxfile host="65bd71144e">
+    <diagram id="JngHAbN6_aFRcx6rQhVJ" name="Page-1">
+        <mxGraphModel dx="451" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="User fills out form" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FAFAFA;comic=0;sketch=0;fillStyle=auto;strokeColor=#0A0A0A;strokeWidth=1;fontColor=#0D0D0D;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="139.9999999999999" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="199.9999999999999" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Data is sent to handleSubmit function" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=#FAFAFA;comic=0;sketch=0;fillStyle=auto;strokeColor=#0A0A0A;strokeWidth=1;fontColor=#0D0D0D;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="139.9999999999999" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
